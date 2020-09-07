@@ -1,0 +1,16 @@
+.安装python3.5.4版本
+
+.安装node v8.9.4版本
+
+.同目录拷贝config_backup.json文件，改名为config_v1.json，修改相应目录为你电脑上的目录，做为老版本配置
+
+.同目录拷贝config_backup.json文件，改名为config_v2.json，修改相应目录为你电脑上的目录，做为新版本配置
+
+.安装protobuf插件
+npm install protobufjs@6.8.4 -g
+npm install @egret/protobuf -g
+
+
+.使用
+执行build-proto_v1.bat更新老版本协议
+执行build-proto_v2.bat更新新版本协议
